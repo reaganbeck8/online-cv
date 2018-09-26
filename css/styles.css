@@ -1,0 +1,289 @@
+/* body {
+    margin: 0.5rem auto;
+    background-image: url(../img/bg1.jpg)
+} */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    width: 100%;
+    
+    background-image: url(../img/bg1.jpg);
+
+}
+ /******************* Nav Bar Styling Starts Here *******************/
+ul {
+    width: 100%;
+    display: flex;
+    float: right;
+    list-style: none;
+    /* padding-top: rem; */
+    /* margin: 0; */
+    /* background-color: black; */
+}
+
+li {
+    width: auto;
+    list-style: none;
+}
+
+ul li {
+    padding: 10px 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    position: relative;
+}
+
+ul li a:before {
+    content: '';
+    width: 0px;
+    height: 0.18em;
+    background: #00bcd4;
+    position: absolute;
+    top: 120%;
+    left: 0;
+    transition: .5s;
+    mix-blend-mode: multiply;
+}
+
+ul li a:after {
+    content: '';
+    width: 0px;
+    height: 0.18em;
+    background: #f0f;
+    position: absolute;
+    top: 120%;
+    right: 0;
+    transition: .5s;
+    mix-blend-mode: multiply;
+}
+
+ul li:hover a:before {
+    width: 50%;
+    transform: translateX(100%);
+}
+
+ul li:hover a:after {
+    width: 50%;
+    transform: translateX(-100%);
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: rgb(253, 1, 156);
+}
+
+a {
+    line-height: 2em;
+    display: inline;
+    padding-top: 0.1em;
+
+    font-family: 'Ubuntu', sans-serif;
+}
+ /******************* Nav Bar Styling Ends Here *******************/
+.ad-left {
+    float: none;
+    margin: auto;
+    margin-top: 0.1em;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    padding-left: 15em;
+    padding-right: 15em;
+}
+
+.ad-right {
+    float: none;
+    /* margin-top: 211px;
+    margin-left: 10px; */
+    padding-left: 10em;
+    padding-right: 10em;
+    margin: auto
+    color: rgb(255, 255, 255);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.entire-thing {
+    width: 800px;
+    /* margin-left: 10rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+} */
+    margin: auto;
+}
+
+.img {
+    width: 250px;
+    height: 250px;
+    /* margin-left: 0; */
+    box-shadow: 0 0 16px 2px azure;
+}
+
+.name {
+    float: left;
+    margin-left: 0;
+    margin-right: 3rem ;
+}
+
+#submit {
+    margin: 2em;
+}
+
+.ul-menu {
+    float: left;
+    /* font-family: Ubuntu, sans-serif; */
+    width: 100%;
+    box-shadow: 0 0 20px 5px black;
+    position: fixed;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 2rem;
+    font-size: 1em;
+    background-color: rgb(250, 250, 250);
+    z-index: 1;
+}
+
+.menu {
+    float: right;
+    word-spacing: 1em;
+    display: inline;
+    margin-right: 5rem;
+}
+
+.boxes_text-wrapper {
+    padding-left: 0.8rem;
+    margin: 0.1rem;
+}
+
+img {
+    border-radius: 15%;
+    box-shadow: 0 0 16px 2px rgb(34, 221, 221);
+    /* width: 225px;
+    height: 225px; */
+}
+
+.boxes {
+    padding: 1rem;
+    padding-left: 5rem;
+}
+
+.btn  {
+    margin-left: -6em;
+    width: 12em;
+    height: 2.3em;
+    background: #00bcd4;
+    list-style: none;
+    position: absolute;
+    text-align: center;
+    /* margin-top: rem; */
+    border-radius: 2rem;
+    text-decoration: none;
+    letter-spacing: 3.5px;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+    box-shadow: 0 0 16px 2px black;
+}
+
+.info {
+    padding-top: 50rem;
+}
+
+
+.txt {
+    color: rgb(240, 255, 255);
+}
+
+.pd {
+    margin: 5rem;
+    padding: 2rem;
+    /* background-color: rgba(240, 255, 255, 0.185); */
+    box-shadow: 0 0 16px 2px azure;
+    border-radius: 10px;
+    background-color: rgba(240, 255, 255, 0.295)
+}
+
+div .block {
+    margin-left: 150px
+}
+input {
+    border-radius: 3px;
+    padding-left: 10em;
+    padding-right: 10em;
+    background-color: black;
+    color: lime;
+    margin: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+    border-color: lime;
+    border: dotted;
+}
+textarea {
+    border-radius: 3px;
+    resize: auto;
+    overflow-wrap: break-word;
+    background-color: black;
+    color: lime;
+    border-color: lime;
+    border: dotted;
+}
+label {
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+}
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    /* position: absolute; */
+    padding-top: 7em;
+    padding-bottom: 7em;
+}
+h2:hover {
+    color: #f0f;
+}
+
+.pd {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgba(18, 216, 216, 0.651);
+}
+section {
+    margin: 3rem;
+    /* padding-top: 4rem; */
+    
+}
+article {
+    background-image: url(../img/webdev1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: fixed;
+}
+img {
+    transition-duration: 1s;
+}
+img:hover {
+    transform: scale(1.1)
+    /* box-shadow: 0 0 16px 2px azure; */
+
+}
+p:hover {
+    transform: scale(1.09)
+}
+p {
+    transition-duration: 100ms;
+    text-align: center;
+}
+form {
+    padding-left: 15em;
+    padding-right: 15em;
+    width: fit-content;
+    height: 20em;
+    background-color: rgba(0, 0, 0, 0.445);
+    border-radius: 15px;
+
+}
+label {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.15em;
+}
