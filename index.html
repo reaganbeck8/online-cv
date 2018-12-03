@@ -16,36 +16,66 @@
 <body>
   <!-- Navigation bar and landing page -->
   <section class="hero is-success is-fullheight" id="landingBg">
-    <nav class="navbar is-success">
-      <div class="container">
-        <div class="navbar-brand">
-          <a href="#" class="navbar-item-1">RB</a>
-          <span class="navbar-burger burger" data-target="navMenu">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
-        </div>
 
-        <div class="navbar-menu" id="navMenu">
-          <div class="navbar-end">
+    <!-- <nav class="navbar is-success is-fixed-top"> -->
+    <section class="container is-fluid">
+      <nav class="navbar level is-fixed-bottom">
+        <p class="level-item has-text-centered">
+          <a class="link is-info" id="hvr-bob">Home</a>
+        </p>
+        <p class="level-item has-text-centered">
+          <a class="link is-info" id="hvr-bob">About Me</a>
+        </p>
+        <p class="level-item has-text-centered">
+          <a class="link is-info" id="hvr-bob">Skills</a>
+        </p>
+        <p class="level-item has-text-centered">
+            <a class="link is-info" id="hvr-bob">R<strong>B</strong></a>
+        </p>
+        <p class="level-item has-text-centered">
+          <a class="link is-info" id="hvr-bob">Experience</a>
+        </p>
+        <p class="level-item has-text-centered">
+          <a class="link is-info" id="hvr-bob">Education</a>
+        </p>
+        <p class="level-item has-text-centered">
+          <a class="link is-info" id="hvr-bob">Contact</a>
+        </p>
+      </nav>
+    </section>
+    <div class="container">
+
+      <!-- <div class="navbar-menu" id="navMenu"> -->
+
+      <!-- <div class="navbar-start">
             <a href="#" class="navbar-item">Home</a>
             <a href="#" class="navbar-item">About Me</a>
             <a href="#" class="navbar-item">Skills</a>
             <a href="#" class="navbar-item">Experience</a>
             <a href="#" class="navbar-item">Education</a>
             <a href="#" class="navbar-item">Contact</a>
+          </div> -->
 
-          </div>
-        </div>
-      </div>
+      <!-- <div class="navbar-brand-end">
+              <a href="#" class="navbar-item-1 has-text-centered">RB</a>
+              <span class="navbar-burger burger" data-target="navMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+          </div> -->
+
+      <!-- </div> -->
+
+    </div>
+
     </nav>
     <article class="hero-body">
       <div class="container">
-        <h1 class="title">
+        <h1 class="title has-text-right">
           Reagan Beck
         </h1>
-        <h2 class="subtitle">
+        <h2 class="subtitle has-text-right">
           Junior Web Developer | Audio Engineer
         </h2>
       </div>
@@ -57,56 +87,58 @@
 
   <!-- Text Boxes with Information Starts Here -->
   <br>
-  <section class="container">
+  <section class="container is-fullhd is-fullheight">
     <div class="tile is-ancestor">
-      <div class="tile is-parent">
-        <article class="tile is-child box">
-          <p class="title">First column</p>
-          <p class="subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus quas sapiente saepe fugit, vero accusamus perferendis libero quia dicta impedit vel rem explicabo perspiciatis ducimus quisquam consequuntur praesentium, aperiam cupiditate.</p>
-        </article>
+      <div class="tile is-vertical is-8">
+        <div class="tile">
+          <div class="tile is-parent is-vertical">
+            <article class="tile is-child notification is-primary">
+              <p class="title">Vertical...</p>
+              <p class="subtitle">Top tile</p>
+            </article>
+            <article class="tile is-child notification is-warning">
+              <p class="title">...tiles</p>
+              <p class="subtitle">Bottom tile</p>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child notification is-info">
+              <p class="title">Middle tile</p>
+              <p class="subtitle">With an image</p>
+              <figure class="image is-4by3">
+                <img src="https://bulma.io/images/placeholders/640x480.png">
+              </figure>
+            </article>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child notification is-danger">
+            <p class="title">Wide tile</p>
+            <p class="subtitle">Aligned with the right tile</p>
+            <div class="content">
+              <!-- Content -->
+            </div>
+          </article>
+        </div>
       </div>
       <div class="tile is-parent">
-        <article class="tile is-child box">
-          <p class="title">Second column</p>
-          <p class="subtitle">with some content</p>
-        </article>
-      </div>
-      <div class="tile is-parent">
-        <article class="tile is-child box">
-          <p class="title">Third column</p>
-          <p class="subtitle">With some content</p>
+        <article class="tile is-child notification is-success">
           <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor
-              vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+            <p class="title">Tall tile</p>
+            <p class="subtitle">With even more content</p>
+            <div class="content">
+              <!-- Content -->
+            </div>
           </div>
         </article>
       </div>
-      <div class="tile is-parent">
-        <article class="tile is-child box">
-          <p class="title">Fourth column</p>
-          <p class="subtitle">With some content</p>
-          <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor
-              vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-          </div>
-        </article>
-      </div>
-      <div class="tile is-parent">
-        <article class="tile is-child box">
-          <p class="title">Fifth column</p>
-          <p class="subtitle">With some content</p>
-          <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor
-              vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-          </div>
-        </article>
-      </div>
+    </div>
   </section>
-  <div class="txt">
 
-    <!-- Section for Skills Starts Here -->
 
-    <!-- <section id="skills">
+  <!-- Section for Skills Starts Here -->
+
+  <!-- <section id="skills">
           <h2>Skills</h2>
           <p class="pd" style="text-align:center; background-color:rgba(255, 255, 255, 0.801)"><img src="img/html5.png"
               alt="html5-logo" width="100px" height="100px">
@@ -117,61 +149,61 @@
           </p>
         </section> -->
 
-    <!-- Section for Skills Ends Here -->
+  <!-- Section for Skills Ends Here -->
 
-    <!-- Section for Education Starts here -->
+  <!-- Section for Education Starts here -->
 
-    <section id="education">
-      <h2>Education</h2>
-      <p class="pd"><strong>Salesian Life Choices</strong>- Full-Stack Web Development Course (6 months)<br>
-        <strong>University of the Western Cape</strong>- a year and half of 3 year degree in BCom Financial
-        Accounting (Mathematics, Business Statistics, Economics [Micro and Macro], Accounting [Management
-        Accounting, Financial Accounting], Law [Insolvency, Contracts], Company Law, Business Management,
-        Information Systems, Auditing<br><strong>Christel House South Africa</strong>- Matric Class of 2015
-        [Bachelors Pass with 2 distinctions]<br><strong>World Economic Forum</strong>-<em>Young Global Leaders
-          Workshop<br>One Day Workshop :</em> Employability, Sustainability & Scalability of the Christel House
-        Model</p>
-    </section>
+  <section id="education">
+    <h2>Education</h2>
+    <p class="pd"><strong>Salesian Life Choices</strong>- Full-Stack Web Development Course (6 months)<br>
+      <strong>University of the Western Cape</strong>- a year and half of 3 year degree in BCom Financial
+      Accounting (Mathematics, Business Statistics, Economics [Micro and Macro], Accounting [Management
+      Accounting, Financial Accounting], Law [Insolvency, Contracts], Company Law, Business Management,
+      Information Systems, Auditing<br><strong>Christel House South Africa</strong>- Matric Class of 2015
+      [Bachelors Pass with 2 distinctions]<br><strong>World Economic Forum</strong>-<em>Young Global Leaders
+        Workshop<br>One Day Workshop :</em> Employability, Sustainability & Scalability of the Christel House
+      Model</p>
+  </section>
 
-    <!-- Section for Education Ends here -->
+  <!-- Section for Education Ends here -->
 
-    <!-- Section for Experience Starts here -->
+  <!-- Section for Experience Starts here -->
 
-    <section id="experience">
-      <h2>Experience</h2>
-      <p class="pd"><strong>Retail Store</strong> I ordered and managed stock; I stocked shelves, Served and
-        assisted customers on checkouts; Answered the phone and helped with queries/complaints, I remained
-        professional at all times; I also Helped train new members of staff.</p>
-    </section>
-    <section id="portfolio">
-      <h2>About</h2>
-      <p class="pd">
-        I am a focused autodidact that seeks to constantly develop the already gained skills and tools of the trade
-        that I possess. I am adaptable, creative, self-motivated and have an eye for detail.
-      </p>
-    </section>
+  <section id="experience">
+    <h2>Experience</h2>
+    <p class="pd"><strong>Retail Store</strong> I ordered and managed stock; I stocked shelves, Served and
+      assisted customers on checkouts; Answered the phone and helped with queries/complaints, I remained
+      professional at all times; I also Helped train new members of staff.</p>
+  </section>
+  <section id="portfolio">
+    <h2>About</h2>
+    <p class="pd">
+      I am a focused autodidact that seeks to constantly develop the already gained skills and tools of the trade
+      that I possess. I am adaptable, creative, self-motivated and have an eye for detail.
+    </p>
+  </section>
 
-    <!-- Section for Experience Ends here -->
+  <!-- Section for Experience Ends here -->
 
-    <!-- Section for Interests & Hobbies Starts here -->
+  <!-- Section for Interests & Hobbies Starts here -->
 
-    <section id="projects">
-      <h2>Interests & Hobbies</h2>
-      <p class="pd">I enjoy part-time instrumental composition, arrangement as well as audio engineering.</p>
-    </section>
-    <footer class="footer" id="footer">
+  <section id="projects">
+    <h2>Interests & Hobbies</h2>
+    <p class="pd">I enjoy part-time instrumental composition, arrangement as well as audio engineering.</p>
+  </section>
+  <footer class="footer" id="footer">
 
-      <article class="content has-text-centered">
+    <article class="content has-text-centered">
 
-        <h2 class="contact-info">Contact Information</h2>
+      <h2 class="contact-info">Contact Information</h2>
 
-        <h3>reaganbeck8@gmail.com</h3>
+      <h3>reaganbeck8@gmail.com</h3>
 
-        <p>+27 67 063 5702</p>
+      <p>+27 67 063 5702</p>
 
-      </article>
+    </article>
 
-    </footer>
+  </footer>
 </body>
 
 </html>
