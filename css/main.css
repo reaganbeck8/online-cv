@@ -34,6 +34,14 @@
 		background-position: 0% 50%
 	}
 }
+#nav {
+	color: #fff;
+	background: linear-gradient(-45deg, rgb(22, 109, 190), rgb(105, 105, 105));
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 20s ease infinite;
+	-moz-animation: Gradient 20s ease infinite;
+	animation: Gradient 40s ease infinite;
+}
 .navbar-menu{
     display: flex !important;
 }
