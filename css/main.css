@@ -187,6 +187,16 @@ footer {
     color: #ffffff !important;
     font-family: 'IBM Plex Sans', sans-serif !important;
 }
-body {
-    display: 
+/* @media (min-width: 600px) {
+    nav{
+        display: inline-flex !important;
+    }
+} */
+@media (max-width: 600px) {
+    nav p {
+        display: none !important;
+    }
+    #mobile-menu {
+        display: block !important; 
+    }
 }

@@ -26,36 +26,40 @@
 
         <div class="navbar-brand" id="menu" onclick="toggleMenu()">
 
-          <span class="navbar-burger burger" data-target="navMenu">
+          <span class="navbar-burger burger" data-target="navMenu" id="mobile-menu">
             <span></span>
             <span></span>
             <span></span>
           </span>
+
+
+
+          <section class="level-item" id="menu-box">
+            <p class="level-item has-text-centered">
+              <a class="navbar-item is-info" id="hvr-bob" href="#">Home</a>
+            </p>
+            <p class="level-item has-text-centered">
+              <a class="navbar-item is-info" id="hvr-bob" href="#">About Me</a>
+            </p>
+            <p class="level-item has-text-centered">
+              <a class="navbar-item is-info" id="hvr-bob" href="#">Skills</a>
+            </p>
+            <p class="level-item has-text-centered">
+              <a class="navbar-item is-info" id="hvr-bob" href="#">Experience</a>
+            </p>
+            <p class="level-item has-text-centered">
+              <a class="navbar-item is-info" id="hvr-bob" href="#">Education</a>
+            </p>
+            <p class="level-item has-text-centered">
+              <a class="navbar-item is-info" id="hvr-bob" href="#">Contact</a>
+            </p>
+            <p class="level-item has-text-centered">
+              <a class="navbar-item is-info" id="hvr-bob" href="#">Portfolio</a>
+            </p>
+          </section>
         </div>
-        <section class="level-item" id="menu-box" >
-          <p class="level-item has-text-centered">
-            <a class="navbar-item is-info" id="hvr-bob" href="#">Home</a>
-          </p>
-          <p class="level-item has-text-centered">
-            <a class="navbar-item is-info" id="hvr-bob" href="#">About Me</a>
-          </p>
-          <p class="level-item has-text-centered">
-            <a class="navbar-item is-info" id="hvr-bob" href="#">Skills</a>
-          </p>
-          <p class="level-item has-text-centered">
-            <a class="navbar-item is-info" id="hvr-bob" href="#">Experience</a>
-          </p>
-          <p class="level-item has-text-centered">
-            <a class="navbar-item is-info" id="hvr-bob" href="#">Education</a>
-          </p>
-          <p class="level-item has-text-centered">
-            <a class="navbar-item is-info" id="hvr-bob" href="#">Contact</a>
-          </p>
-          <p class="level-item has-text-centered">
-            <a class="navbar-item is-info" id="hvr-bob" href="#">Portfolio</a>
-          </p>
-        </section>
       </nav>
+
     </section>
     <div class="container">
 
@@ -178,16 +182,16 @@
 
   </footer>
   <script>
-  
-  function toggleMenu() {
-  var menuBox = document.getElementById('menu-box');    
-  if(menuBox.style.display == "block") { // if is menuBox displayed, hide it
-    menuBox.style.display = "none";
-  }
-  else { // if is menuBox hidden, display it
-    menuBox.style.display = "block";
-  }
-}
+
+    function toggleMenu() {
+      var menuBox = document.getElementById('menu-box');
+      if (menuBox.style.display == "block") { // if is menuBox displayed, hide it
+        menuBox.style.display = "none";
+      }
+      else { // if is menuBox hidden, display it
+        menuBox.style.display = "inline-flex";
+      }
+    }
   </script>
 </body>
 
