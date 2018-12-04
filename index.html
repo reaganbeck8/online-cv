@@ -19,32 +19,42 @@
   <section class="hero is-success is-fullheight" id="landingBg">
 
     <!-- <nav class="navbar is-success is-fixed-top"> -->
-    <article id="myNav" class="overlay">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></article>
+
     <section class="container is-fluid">
 
-      <nav class="navbar level is-fixed-bottom has-dropdown has-dropdown-up" id="nav">
-        <p class="level-item has-text-centered">
-          <a class="link is-info" id="hvr-bob">Home</a>
-        </p>
-        <p class="level-item has-text-centered">
-          <a class="link is-info" id="hvr-bob">About Me</a>
-        </p>
-        <p class="level-item has-text-centered">
-          <a class="link is-info" id="hvr-bob">Skills</a>
-        </p>
-        <p class="level-item has-text-centered">
-          <a class="link is-info" id="hvr-bob">Experience</a>
-        </p>
-        <p class="level-item has-text-centered">
-          <a class="link is-info" id="hvr-bob">Education</a>
-        </p>
-        <p class="level-item has-text-centered">
-          <a class="link is-info" id="hvr-bob">Contact</a>
-        </p>
-        <p class="level-item has-text-centered">
-          <a class="link is-info" id="hvr-bob">Portfolio</a>
-        </p>
+      <nav class="navbar level is-fixed-bottom has-dropdown has-dropdown-up" id="nav" data-target="navb">
+
+        <div class="navbar-brand" id="menu" onclick="toggleMenu()">
+
+          <span class="navbar-burger burger" data-target="navMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <section class="level-item" id="menu-box" style="display:block" >
+          <p class="level-item has-text-centered">
+            <a class="navbar-item is-info" id="hvr-bob" href="#">Home</a>
+          </p>
+          <p class="level-item has-text-centered">
+            <a class="navbar-item is-info" id="hvr-bob" href="#">About Me</a>
+          </p>
+          <p class="level-item has-text-centered">
+            <a class="navbar-item is-info" id="hvr-bob" href="#">Skills</a>
+          </p>
+          <p class="level-item has-text-centered">
+            <a class="navbar-item is-info" id="hvr-bob" href="#">Experience</a>
+          </p>
+          <p class="level-item has-text-centered">
+            <a class="navbar-item is-info" id="hvr-bob" href="#">Education</a>
+          </p>
+          <p class="level-item has-text-centered">
+            <a class="navbar-item is-info" id="hvr-bob" href="#">Contact</a>
+          </p>
+          <p class="level-item has-text-centered">
+            <a class="navbar-item is-info" id="hvr-bob" href="#">Portfolio</a>
+          </p>
+        </section>
       </nav>
     </section>
     <div class="container">
@@ -131,7 +141,7 @@
               <img src="img/php.png" alt="php-logo">
               <img src="img/sass.png" alt="sass-logo">
               <div class="content">
-            </div>
+              </div>
               <!-- Content -->
             </div>
           </div>
@@ -167,6 +177,18 @@
     </article>
 
   </footer>
+  <script>
+  
+  function toggleMenu() {
+  var menuBox = document.getElementById('menu-box');    
+  if(menuBox.style.display == "block") { // if is menuBox displayed, hide it
+    menuBox.style.display = "none";
+  }
+  else { // if is menuBox hidden, display it
+    menuBox.style.display = "block";
+  }
+}
+  </script>
 </body>
 
 </html>
