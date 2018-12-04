@@ -23,10 +23,7 @@
 	animation: Gradient 40s ease infinite;
 }
 
-#hero-text  {
-    color: #ffffff !important;
-    font-family: 'IBM Plex Sans', sans-serif !important;
-}
+
 
 #logos > img {
     width: 8em !important;
@@ -154,6 +151,10 @@ footer {
     -webkit-animation-direction: normal, alternate;
     animation-direction: normal, alternate;
   }
+
+  .title {
+      font-family: 'Raleway', sans-serif !important;
+  }
 /* Summary of tiles which has all the information about myself */
   #skills-tile {
       background: #fca309 !important;
@@ -181,4 +182,8 @@ footer {
     padding-left: 3% !important;
     padding-right: 3% !important;
    
+}
+#hero-text  {
+    color: #ffffff !important;
+    font-family: 'IBM Plex Sans', sans-serif !important;
 }
