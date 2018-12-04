@@ -28,7 +28,11 @@
     font-family: 'IBM Plex Sans', sans-serif !important;
 }
 
-
+#logos > img {
+    width: 8em !important;
+    height: 8em !important;
+    overflow: hidden !important;
+}
 
 @-webkit-keyframes Gradient {
 	0% {
