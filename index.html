@@ -9,6 +9,7 @@
   <link rel="stylesheet" type="text/css" media="screen" href="css/bulma.css" />
   <link rel="stylesheet" href="css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Cairo|Kaushan+Script|Rajdhani|Roboto+Mono|Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100|Nunito:200|Raleway|Ubuntu:300" rel="stylesheet"> 
   <script src="main.js"></script>
 
 </head>
@@ -19,7 +20,7 @@
 
     <!-- <nav class="navbar is-success is-fixed-top"> -->
     <section class="container is-fluid">
-      <nav class="navbar level is-fixed-bottom" id="nav">
+      <nav class="navbar level is-fixed-bottom has-dropdown has-dropdown-up" id="nav">
         <p class="level-item has-text-centered">
           <a class="link is-info" id="hvr-bob">Home</a>
         </p>
@@ -45,37 +46,15 @@
     </section>
     <div class="container">
 
-      <!-- <div class="navbar-menu" id="navMenu"> -->
-
-      <!-- <div class="navbar-start">
-            <a href="#" class="navbar-item">Home</a>
-            <a href="#" class="navbar-item">About Me</a>
-            <a href="#" class="navbar-item">Skills</a>
-            <a href="#" class="navbar-item">Experience</a>
-            <a href="#" class="navbar-item">Education</a>
-            <a href="#" class="navbar-item">Contact</a>
-          </div> -->
-
-      <!-- <div class="navbar-brand-end">
-              <a href="#" class="navbar-item-1 has-text-centered">RB</a>
-              <span class="navbar-burger burger" data-target="navMenu">
-                <span></span>
-                <span></span>
-                <span></span>
-              </span>
-          </div> -->
-
-      <!-- </div> -->
-
     </div>
 
     </nav>
     <article class="hero-body">
       <div class="container">
-        <h1 class="title has-text-right">
+        <h1 class="title has-text-right" id="hero-text">
           Reagan Beck
         </h1>
-        <h2 class="subtitle has-text-right">
+        <h2 class="subtitle has-text-right" id="hero-text">
           Junior Web Developer | Audio Engineer
         </h2>
       </div>
@@ -92,18 +71,18 @@
       <div class="tile is-vertical is-8">
         <div class="tile">
           <div class="tile is-parent is-vertical">
-            <article class="tile is-child notification is-primary">
-              <p class="title">Vertical...</p>
+            <article class="tile is-child notification is-primary" id="contact-tile">
+              <p class="title">Contact / View work</p>
               <p class="subtitle">Top tile</p>
             </article>
-            <article class="tile is-child notification is-warning">
-              <p class="title">...tiles</p>
+            <article class="tile is-child notification is-warning" id="edu-tile">
+              <p class="title">Education</p>
               <p class="subtitle">Bottom tile</p>
             </article>
           </div>
           <div class="tile is-parent">
-            <article class="tile is-child notification is-info">
-              <p class="title">Middle tile</p>
+            <article class="tile is-child notification is-info" id="about-tile">
+              <p class="title">About Me</p>
               <p class="subtitle">With an image</p>
               <figure class="image is-4by3">
                 <img src="https://bulma.io/images/placeholders/640x480.png">
@@ -111,9 +90,9 @@
             </article>
           </div>
         </div>
-        <div class="tile is-parent">
-          <article class="tile is-child notification is-danger">
-            <p class="title">Wide tile</p>
+        <div class="tile is-parent" >
+          <article class="tile is-child notification is-danger" id="xp-tile">
+            <p class="title">Experience</p>
             <p class="subtitle">Aligned with the right tile</p>
             <div class="content">
               <!-- Content -->
@@ -122,9 +101,9 @@
         </div>
       </div>
       <div class="tile is-parent">
-        <article class="tile is-child notification is-success">
+        <article class="tile is-child notification is-success" id="skills-tile">
           <div class="content">
-            <p class="title">Tall tile</p>
+            <p class="title">Skills</p>
             <p class="subtitle">With even more content</p>
             <div class="content">
               <!-- Content -->
