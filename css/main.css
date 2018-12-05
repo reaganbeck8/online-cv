@@ -197,6 +197,12 @@ h2,h3 {
     height: 50% !important;
     overflow: hidden !important;
 }
+
+figure > img {
+    height: fit-content !important;
+    width: fit-content !important;
+    
+}
 /* @media (min-width: 600px) {
     /* nav{
         display: inline-flex !important;
