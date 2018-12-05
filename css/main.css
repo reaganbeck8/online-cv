@@ -63,12 +63,17 @@
 	-moz-animation: Gradient 20s ease infinite;
 	animation: Gradient 40s ease infinite;
 }
-
+nav {
+    background: #ffffff !important;
+    color: #14213d !important;
+}
 .navbar-item:hover{
 
     background: #ff8008 !important;
 }
-
+#navMenu{
+    background: #ffffff !important;
+}
 #nav-end{
     float: right;
     text-align: right !important;
