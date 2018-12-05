@@ -201,7 +201,16 @@ h2,h3 {
 figure > img {
     height: fit-content !important;
     width: fit-content !important;
-    
+
+}
+i{
+    font-size: 7em !important;
+}
+.media-content {
+    overflow-y: hidden !important;
+}
+.card-content {
+    word-wrap: break-word;
 }
 /* @media (min-width: 600px) {
     /* nav{
