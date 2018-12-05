@@ -2,12 +2,14 @@
 <html>
 
 <head>
+
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>CV - Reagan Beck</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" media="screen" href="css/bulma.css" />
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/bulma.css" />
+  
   <link href="https://fonts.googleapis.com/css?family=Cairo|Kaushan+Script|Rajdhani|Roboto+Mono|Ubuntu" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100|Nunito:200|Raleway|Ubuntu:300" rel="stylesheet">
   <script src="main.js"></script>
@@ -21,7 +23,7 @@
     <!-- <nav class="navbar is-success is-fixed-top"> -->
 
     <!-- <section class="container is-fluid"> -->
-        <nav class="navbar is-success is-fixed-bottom" class="scrolled" id="nav">
+        <nav class="navbar is-fixed-bottom is-success">
             <div class="container">
                 <div class="navbar-brand">
                     <a href="#" class="navbar-item">RB</a>
@@ -36,9 +38,9 @@
                 <div class="navbar-menu" id="navMenu">
                     <div class="navbar-end">
                         <a href="#" class="navbar-item">Home</a>
-                        <a href="#" class="navbar-item">Gallery</a>
-                        <a href="#" class="navbar-item">About</a>
                         <a href="#" class="navbar-item">Contact</a>
+                        <a href="#" class="navbar-item">Portfolio</a>
+                        <a href="#" class="navbar-item">About</a>
                     </div>
                 </div>
             </div>
@@ -81,13 +83,13 @@
         </div>
       </nav>
 
-    </section> -->
-    <div class="container">
+      </section> -->
+    <!-- <div class="container"> -->
 
-    </div>
+    <!-- </div>
 
-    </nav>
-    <article class="hero-body">
+    </nav> -->
+    <div class="hero-body">
       <div class="container">
         <h1 class="title has-text-right" id="hero-text">
           Reagan Beck
@@ -96,7 +98,7 @@
           Junior Web Developer | Audio Engineer
         </h2>
       </div>
-    </article>
+    </div>
   </section>
   <!-- Nav Ends here -->
 
@@ -202,7 +204,17 @@
     </article>
 
   </footer>
+  <script>
+      (function () {
+          var burger = document.querySelector('.burger');
+          var nav = document.querySelector('#' +burger.dataset.target);
 
+          burger.addEventListener('click', function(){
+              burger.classList.toggle('is-active');
+              nav.classList.toggle('is-active');
+          });
+      })();
+  </script>
 </body>
 
 </html>
