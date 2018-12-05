@@ -190,15 +190,15 @@ h2,h3 {
     color: #ffffff !important;
     font-family: 'IBM Plex Sans', sans-serif !important;
 }
-@media (min-width: 600px) {
+/* @media (min-width: 600px) {
     /* nav{
         display: inline-flex !important;
     } */
-    #burger {
+    /* #burger {
         display: none;
     }
-}
-@media (max-width: 600px) {
+} */
+/* @media (max-width: 600px) {
     nav p {
         display: none !important;
     }
@@ -206,4 +206,4 @@ h2,h3 {
         display: block !important; 
     }
     
-}
+} */ 
