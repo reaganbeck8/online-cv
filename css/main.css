@@ -26,10 +26,11 @@
 
 
 
-#logos > img {
+.icon {
     width: 8em !important;
     height: 8em !important;
     overflow: hidden !important;
+    color: #54defd !important;
 }
 
 @keyframes Gradient {
@@ -162,23 +163,24 @@ h2,h3 {
   }
 /* Summary of tiles which has all the information about myself */
   #skills-tile {
-      background: #fca309 !important;
-  }
-
-  #xp-tile {
-      background: #14213d !important;
-  }
-
-  #edu-tile {
-      background: #e5e5e5 !important;
-  }
-
-  #contact-tile {
       background: #54defd !important;
   }
 
+  #xp-tile {
+      background: #bbbbbb !important;
+  }
+
+  #edu-tile {
+      background: #00bd9d !important;
+  }
+
+  #contact-tile {
+      background: #8bd7d2 !important;
+  }
+
   #about-tile {
-      background: #c4c4c4 !important;
+      background: #fffbfa !important;
+      color: black !important;
   }
  article {
     border-radius: unset !important;
