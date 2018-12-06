@@ -17,7 +17,7 @@
     width: 100%;
 	height: 100vh;
 	color: #fff;
-	background: linear-gradient(-45deg,  #ff8008 , #ffc837);
+	background: linear-gradient(-45deg,  #00bd9d, #8bd7d2);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 20s ease infinite;
 	-moz-animation: Gradient 20s ease infinite;
@@ -86,7 +86,7 @@ nav {
 
 footer {
     color: #fff !important;
-	background: #14213d !important;
+	background: #8bd7d2 !important;
 	background-size: 100% 100%;
 }
 h2,h3 {
@@ -174,7 +174,7 @@ h2,h3 {
   }
 
   #contact-tile {
-      background: #000000 !important;
+      background: #54defd !important;
   }
 
   #about-tile {
