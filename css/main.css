@@ -827,7 +827,16 @@ i{
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	text-align: center; 
+	align-items: left;
+	justify-content: left;
+	text-align: left; 
+}
+
+/* =========================================== */
+/*           paragraph text styling            */
+/* =========================================== */
+
+p {
+    text-align: left !important;
+    text-justify: auto !important;
 }
