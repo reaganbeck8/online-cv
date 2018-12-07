@@ -29,8 +29,8 @@ html {
 
 
 .icon {
-    width: 2em !important;
-    height: 2em !important;
+    width: 1em !important;
+    height: 1em !important;
     /* overflow: hidden !important; */
     color: #54defd !important;
 }
@@ -87,10 +87,12 @@ nav {
 }
 
 .content{
-    line-height: 2em !important;
+    line-height: 1.5rem !important;
     color: white;
     max-height: 100vh;
-    flex-direction: row !important; 
+    display: inline-block !important;
+    
+    /* flex-direction: row !important;  */
 }
 
 footer {
@@ -171,8 +173,10 @@ h2,h3 {
   }
 /* Summary of tiles which has all the information about myself */
   #skills-tile {
-      background: #54defd !important;
+      background: #8cd1cc !important;
       width: auto !important;
+      height: 100% !important;
+      max-width: fit-content;
   }
 
   #xp-tile {
@@ -180,7 +184,8 @@ h2,h3 {
   }
 
   #edu-tile {
-      background: #00bd9d !important;
+      background: #64bcad!important;
+      color: #ffffff !important;
   }
 
   #contact-tile {
@@ -192,9 +197,10 @@ h2,h3 {
       color: black !important;
   }
 
-  #skills-tile:hover, #xp-tile:hover, #edu-tile:hover, #contact-tile:hover, #about-tile:hover {
-      scale: 1.5 !important;
-  }
+ #skills {
+     display: inline-block !important;
+     position: static !important;
+ }
  article {
     border-radius: unset !important;
 }
@@ -219,8 +225,9 @@ figure > img {
 
 }
 i{
-    font-size: 7em !important;
+    font-size: 6em !important;
     color: #ffffff;
+    padding-left: 1em !important;
 }
 .media-content {
     overflow-y: hidden !important;
