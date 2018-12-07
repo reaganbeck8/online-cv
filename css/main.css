@@ -29,10 +29,14 @@ html {
 
 
 .icon {
-    width: 8em !important;
-    height: 8em !important;
-    overflow: hidden !important;
+    width: 2em !important;
+    height: 2em !important;
+    /* overflow: hidden !important; */
     color: #54defd !important;
+}
+#logos {
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;
 }
 
 @keyframes Gradient {
@@ -67,12 +71,12 @@ html {
 	animation: Gradient 40s ease infinite;
 }
 nav {
-    background: #ffffff !important;
+    background: #8bd7d2 !important;
     color: #14213d !important;
 }
 .navbar-item:hover{
 
-    background: #ff8008 !important;
+    background: #00bd9d !important;
 }
 #navMenu{
     background: #ffffff !important;
@@ -85,7 +89,8 @@ nav {
 .content{
     line-height: 2em !important;
     color: white;
-    max-height: 100vh; 
+    max-height: 100vh;
+    flex-direction: row !important; 
 }
 
 footer {
@@ -167,6 +172,7 @@ h2,h3 {
 /* Summary of tiles which has all the information about myself */
   #skills-tile {
       background: #54defd !important;
+      width: auto !important;
   }
 
   #xp-tile {
@@ -192,11 +198,11 @@ h2,h3 {
  article {
     border-radius: unset !important;
 }
-#info-tiles {
+/* #info-tiles {
     padding-left: 3% !important;
     padding-right: 3% !important;
    
-}
+} */
 #hero-text  {
     color: #ffffff !important;
     font-family: 'IBM Plex Sans', sans-serif !important;
