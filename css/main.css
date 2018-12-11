@@ -173,7 +173,7 @@ h2,h3 {
   }
 /* Summary of tiles which has all the information about myself */
   #skills-tile {
-      background: #8cd1cc !important;
+      background: #8bd7d2 !important;
       width: auto !important;
       height: 100% !important;
       max-width: fit-content;
@@ -189,7 +189,7 @@ h2,h3 {
   }
 
   #contact-tile {
-      background: #8bd7d2 !important;
+      background: #8cd1cc !important;
   }
 
   #about-tile {
