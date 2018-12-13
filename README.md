@@ -35,23 +35,23 @@ https://reaganbeck8.github.io/online-cv/
 
 1. HTML - Hyper Text Markup Language
 
-Hypertext Markup Language, a standardized system for tagging text files to achieve font, 
-colour, graphic, and hyperlink effects on World Wide Web pages.
+>Hypertext Markup Language, a standardized system for tagging text files to achieve font, 
+>colour, graphic, and hyperlink effects on World Wide Web pages.
 
 
 2. CSS - Cascading Style Sheet(s)
 
 
-CSS is a language that describes the style of an HTML document.
+>CSS is a language that describes the style of an HTML document.
 
-CSS describes how HTML elements should be displayed.
+>CSS describes how HTML elements should be displayed.
 
-This tutorial will teach you CSS from basic to advanced
+>This tutorial will teach you CSS from basic to advanced
 
 
 3. Js - JavaScript
 
-JavaScript, often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm. Alongside HTML and CSS, JavaScript is one of the three core technologies of the World Wide Web
+>JavaScript, often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm. Alongside HTML and CSS, JavaScript is one of the three core technologies of the World Wide Web
 
 
 
