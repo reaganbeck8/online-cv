@@ -192,9 +192,11 @@ h2,h3 {
       background: #8cd1cc !important;
   }
 
-  #about-tile {
-      background: #fffbfa !important;
+  #about {
+      font-size: 1.3em !important;
       color: black !important;
+      font-family: 'Raleway', sans-serif !important;
+      word-wrap: break-word !important;
   }
 
  #skills {
@@ -225,7 +227,7 @@ figure > img {
 
 }
 i{
-    font-size: 5em !important;
+    font-size: 4em !important;
     color: #ffffff;
     padding-left: 1em !important;
 }
