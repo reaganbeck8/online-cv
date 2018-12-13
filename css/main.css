@@ -173,7 +173,7 @@ h2,h3 {
   }
 /* Summary of tiles which has all the information about myself */
   #skills-tile {
-      background: #8bd7d2 !important;
+      background: #76c5c9 !important;
       width: auto !important;
       height: 100% !important;
       max-width: fit-content;
@@ -184,7 +184,7 @@ h2,h3 {
   }
 
   #edu-tile {
-      background: #64bcad!important;
+      background: #76c5c9!important;
       color: #ffffff !important;
   }
 
@@ -198,7 +198,9 @@ h2,h3 {
       font-family: 'Raleway', sans-serif !important;
       word-wrap: break-word !important;
   }
-
+  #skills-section {
+      padding-top: 7em !important;
+  }
  #skills {
      display: inline-block !important;
      position: static !important;
@@ -227,9 +229,9 @@ figure > img {
 
 }
 i{
-    font-size: 4em !important;
+    font-size: 5em !important;
     color: #ffffff;
-    padding-left: 1em !important;
+    /* padding-left: 1em !important; */
 }
 .media-content {
     overflow-y: hidden !important;
