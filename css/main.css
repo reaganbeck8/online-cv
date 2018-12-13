@@ -255,6 +255,18 @@ i{
 .card-content {
     word-wrap: break-word;
 }
+.list {
+    display: none !important;
+}
+@media (max-width: 1070px) {
+    #skills-icons > div {
+        display: none !important;
+
+    }
+    .list {
+        display: initial !important;
+    }
+}
  @media (max-width: 751px) {
     #about-padding {
         padding-left: 2.5em !important;
@@ -266,10 +278,7 @@ i{
         padding-right: 2.5em !important;
     }
 } 
- @media (max-width: 600px) {
-    
-    
-} 
+ 
 
 /* =========================================== */
 /*            Loading Image                    */
