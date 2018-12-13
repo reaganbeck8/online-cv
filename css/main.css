@@ -239,23 +239,20 @@ i{
 .card-content {
     word-wrap: break-word;
 }
-/* @media (min-width: 600px) {
-    /* nav{
-        display: inline-flex !important;
-    } */
-    /* #burger {
-        display: none;
+ @media (max-width: 751px) {
+    #about-padding {
+        padding-left: 2.5em !important;
+        padding-right: 2.5em !important;
     }
-} */
-/* @media (max-width: 600px) {
-    nav p {
-        display: none !important;
+    #edu-padding {
+        padding-left: 2.5em !important;
+        padding-right: 2.5em !important;
     }
-    #mobile-menu {
-        display: block !important; 
-    }
+} 
+ @media (max-width: 600px) {
     
-} */ 
+    
+} 
 
 /* =========================================== */
 /*            Loading Image                    */
